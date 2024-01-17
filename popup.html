@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Extension</title>
+    <style>
+      body {
+        width: 200px;
+        padding: 10px;
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+      }
+
+      h3 {
+        color: #333;
+        text-align: center;
+      }
+
+      #toggleButton {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        margin-top: 20px;
+        font-size: 16px;
+        color: #fff;
+        background-color: #007bff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+
+      #toggleButton:hover {
+        background-color: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Design Mode</h3>
+
+    <button id="toggleButton">Toggle Extension</button>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
